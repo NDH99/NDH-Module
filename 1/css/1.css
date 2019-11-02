@@ -1,5 +1,6 @@
 .type-1 .top {
   position: relative;
+  padding: 5px 0;
 }
 .type-1 .top a {
   text-decoration: none;
@@ -26,6 +27,26 @@
   height: 100%;
   width: 100vw;
   background: #eeeeee;
+}
+.type-1 .mid {
+  margin-top: 20px;
+  position: relative;
+}
+.type-1 .mid a {
+  text-decoration: none;
+  color: #000;
+}
+.type-1 .mid a:hover {
+  color: #e08686;
+}
+.type-1 .mid .contact {
+  text-align: left;
+}
+.type-1 .mid .des {
+  text-align: center;
+}
+.type-1 .mid .tandc {
+  text-align: right;
 }
 @media only screen and (max-width: 1000px) {
   .top .contact,
