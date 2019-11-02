@@ -13,5 +13,18 @@
                 </div>
             </div>
         </div>
+        <div class="mid">
+            <div class="row">
+                <div class="col-md-4 contact">
+                    <a href="#">Contact us 24/7: +44 330 022 5700</a>
+                </div>
+                <div class="col-md-4 des">
+                    <a href="#">Express delivery and free returns within 28 days</a>
+                </div>
+                <div class="col-md-4 tandc">
+                    <a href="#">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
