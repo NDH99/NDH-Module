@@ -1,0 +1,39 @@
+.type-1 {
+    .top {
+        position: relative;
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+        a:hover{
+            color: #e08686;
+        }
+        .contact{
+            text-align: left;
+        }
+        .des{
+            text-align: center;
+        }
+        .tandc{
+            text-align: right;
+        }
+        
+    }
+    .top:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX( -50%);
+        height: 100%;
+        width: 100vw;
+        background: #eeeeee;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .top .contact, .tandc {
+        visibility: hidden;
+    }
+  }

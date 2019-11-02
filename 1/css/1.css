@@ -1,0 +1,35 @@
+.type-1 .top {
+  position: relative;
+}
+.type-1 .top a {
+  text-decoration: none;
+  color: #000;
+}
+.type-1 .top a:hover {
+  color: #e08686;
+}
+.type-1 .top .contact {
+  text-align: left;
+}
+.type-1 .top .des {
+  text-align: center;
+}
+.type-1 .top .tandc {
+  text-align: right;
+}
+.type-1 .top:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 100vw;
+  background: #eeeeee;
+}
+@media only screen and (max-width: 1000px) {
+  .top .contact,
+  .tandc {
+    visibility: hidden;
+  }
+}
