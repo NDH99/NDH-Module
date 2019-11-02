@@ -1,1 +1,2 @@
-<div class="type-1"></div>
+<div class="type-1">
+</div>
