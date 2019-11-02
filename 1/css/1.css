@@ -30,7 +30,6 @@
 }
 .type-1 .mid {
   margin-top: 20px;
-  position: relative;
 }
 .type-1 .mid a {
   text-decoration: none;
@@ -39,14 +38,19 @@
 .type-1 .mid a:hover {
   color: #e08686;
 }
-.type-1 .mid .contact {
+.type-1 .mid .english {
   text-align: left;
 }
-.type-1 .mid .des {
-  text-align: center;
+.type-1 .mid .logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-.type-1 .mid .tandc {
+.type-1 .mid .find {
   text-align: right;
+}
+.type-1 .mid .find a {
+  padding: 0 5px;
 }
 @media only screen and (max-width: 1000px) {
   .top .contact,

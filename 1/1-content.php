@@ -16,14 +16,22 @@
         <div class="mid">
             <div class="row">
                 <div class="col-md-4 english">
-                    <a href="#">English | </a>
+                    <a href="#">English </a>
+                        <span>|</span>
+                        <a href="#"><i class="fa fa-user"></i></a>
                 </div>
                 <div class="col-md-4 logo">
                     <a href="#"><img src="images/logo-img-1.png" alt="logo" class="img-responsive"></a>
                 </div>
                 <div class="col-md-4 find">
                     <a href="#">
-
+                    <i class="fa fa-search"></i>
+                    </a>
+                    <a href="#">
+                    <i class="fa fa-shopping-bag"></i>
+                    </a>
+                    <a href="#">
+                    <i class="fa fa-heart"></i>
                     </a>
                 </div>
             </div>
