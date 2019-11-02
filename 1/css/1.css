@@ -34,12 +34,23 @@
 .type-1 .mid a {
   text-decoration: none;
   color: #000;
+  padding: 0 5px;
 }
 .type-1 .mid a:hover {
   color: #e08686;
 }
 .type-1 .mid .english {
+  height: 100px;
+  line-height: 100px;
   text-align: left;
+}
+.type-1 .mid .english a {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+.type-1 .mid .logo {
+  height: 100px;
 }
 .type-1 .mid .logo img {
   display: block;
@@ -47,10 +58,14 @@
   margin-right: auto;
 }
 .type-1 .mid .find {
+  height: 100px;
+  line-height: 100px;
   text-align: right;
 }
 .type-1 .mid .find a {
-  padding: 0 5px;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
 }
 @media only screen and (max-width: 1000px) {
   .top .contact,
