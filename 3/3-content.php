@@ -47,7 +47,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="col-xs-12 col-sm-6 col-md-4 pro">
                             <figure class="card card-product">
                                 <div class="img-wrap">
-                                    <img src="images/product-img-10.jpg">
+                                    <img src="images/product-img-9.jpg">
                                     <img class="hover-img" src="">
                                 </div>
                                 <figcaption class="info-wrap">
@@ -87,6 +87,32 @@ $url_path = str_replace('\\', '/', $url_path);
                             <figure class="card card-product">
                                 <div class="img-wrap">
                                     <img src="images/product-img-18.jpg">
+                                    <img class="hover-img" src="">
+                                </div>
+                                <figcaption class="info-wrap">
+                                    <a href="#" class="tag">Accessories</a><br>
+                                    <a href="#">Chic Scarf</a><br>
+                                    <span class="price">$350.00</span>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 pro">
+                            <figure class="card card-product">
+                                <div class="img-wrap">
+                                    <img src="images/product-img-19.jpg">
+                                    <img class="hover-img" src="">
+                                </div>
+                                <figcaption class="info-wrap">
+                                    <a href="#" class="tag">Accessories</a><br>
+                                    <a href="#">Chic Scarf</a><br>
+                                    <span class="price">$350.00</span>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 pro">
+                            <figure class="card card-product">
+                                <div class="img-wrap">
+                                    <img src="images/product-img-20.jpg">
                                     <img class="hover-img" src="">
                                 </div>
                                 <figcaption class="info-wrap">
