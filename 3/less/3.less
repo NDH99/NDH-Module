@@ -1,10 +1,17 @@
 .type-3{
     margin-top: 20px;
+    .pro{
+        margin-top: 15px;
+    }
     .card-product {
         border: none;
         position: relative;
         .img-wrap {
             height: unset;
+            img{
+                width:240px;
+                height:292px;
+            }
             .font-awe {
                 list-style: none;
                 position: absolute;
@@ -34,23 +41,25 @@
             padding-bottom: 0;
             font-size: 17px;
             a{
+                font-size: 13px;
                 color: #000;
+                text-decoration: none;
+            }            
+            .tag{
+                color: #e08686;
                 text-decoration: none;
             }
             .tag:hover{
                 font-weight: 500;
                 letter-spacing: .02em;
                 color: #e08686;
+                transition: .3s;
+                opacity: 1;
             }
-            .title {
-                font-family: "Times New Roman", Times, serif;
-                color: #000;
-                border-bottom: 1px solid rgba(0, 0, 0, .1);
-            }
-            .price-wrap {
-                color: #949494;
-                margin-top: 10px;
-
+            .price {
+             
+                font-size: 16px;
+                font-weight: bold;
             }
         }
     }

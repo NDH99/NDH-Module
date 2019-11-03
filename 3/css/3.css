@@ -1,12 +1,19 @@
 .type-3 {
   margin-top: 20px;
 }
+.type-3 .pro {
+  margin-top: 15px;
+}
 .type-3 .card-product {
   border: none;
   position: relative;
 }
 .type-3 .card-product .img-wrap {
   height: unset;
+}
+.type-3 .card-product .img-wrap img {
+  width: 240px;
+  height: 292px;
 }
 .type-3 .card-product .img-wrap .font-awe {
   list-style: none;
@@ -35,19 +42,22 @@
   font-size: 17px;
 }
 .type-3 .card-product .info-wrap a {
+  font-size: 13px;
   color: #000;
+  text-decoration: none;
+}
+.type-3 .card-product .info-wrap .tag {
+  color: #e08686;
   text-decoration: none;
 }
 .type-3 .card-product .info-wrap .tag:hover {
   font-weight: 500;
+  letter-spacing: .02em;
   color: #e08686;
+  transition: .3s;
+  opacity: 1;
 }
-.type-3 .card-product .info-wrap .title {
-  font-family: "Times New Roman", Times, serif;
-  color: #000;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-.type-3 .card-product .info-wrap .price-wrap {
-  color: #949494;
-  margin-top: 10px;
+.type-3 .card-product .info-wrap .price {
+  font-size: 16px;
+  font-weight: bold;
 }
