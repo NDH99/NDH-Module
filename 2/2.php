@@ -13,7 +13,7 @@
 	}
 	
 	$less = new lessc;
-	$less->compileFile('less/1.less', 'css/1.css');
+	$less->compileFile('less/2.less', 'css/2.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -24,7 +24,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="<?php echo $url_path ?>/css/bootstrap-3.3.7.min.css" rel="stylesheet" type="text/css" />
 	<link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
-	<link href="<?php echo $url_path ?>/css/1.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo $url_path ?>/css/2.css" rel="stylesheet" type="text/css" />
 
 	<script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
 	<script src="<?php echo $url_path ?>/js/bootstrap-3.3.7.min.js"></script>	
@@ -33,7 +33,7 @@
 </head>
 
 <body>
-    <?php include './1-content.php'; ?>	
+    <?php include './2-content.php'; ?>	
 </body>
 
 </html>
