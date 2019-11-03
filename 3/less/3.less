@@ -7,17 +7,10 @@
         border: none;
         position: relative;
         .img-wrap {
-            height: unset;
             img{
                 width:240px;
                 height:292px;
             }
-            .font-awe {
-                list-style: none;
-                position: absolute;
-                right: 10px;
-                top: 0;
-            }   
 
             .hover-img {
                 visibility: hidden;
@@ -25,15 +18,22 @@
                 left: 0;
                 top: 0;
             }
-            .mnb{
-                visibility: hidden;
-            }
             &:hover .hover-img{
                 visibility: unset;
                 
             }
-            &:hover .mnb{
-                visibility: unset;
+            .middle {
+                z-index: 1;
+                transition: .5s ease;
+                position: absolute;
+                top: 0;
+                left: 0;
+                text-align: center;
+            }
+            .text {
+                background-color: #e08686;
+                color: #fff;
+                font-size: 15px;
             }
         }
         .info-wrap {
@@ -52,8 +52,7 @@
             .tag:hover{
                 font-weight: 500;
                 letter-spacing: .02em;
-                color: #e08686;
-                transition: .3s;
+                color: #f7e7e7;
                 opacity: 1;
             }
             .price {

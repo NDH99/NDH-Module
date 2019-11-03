@@ -22,7 +22,10 @@ $url_path = str_replace('\\', '/', $url_path);
                             <figure class="card card-product">
                                 <div class="img-wrap">
                                     <img src="images/product-img-1.jpg">
-                                    <img class="hover-img" src="images/giay2.jpg">
+                                    <img class="hover-img" src="">
+                                    <div class="middle">
+                                        <span class="text">SALE</span>
+                                    </div>
                                 </div>
                                 <figcaption class="info-wrap">
                                     <a href="#" class="tag">Accessories</a><br>
@@ -62,6 +65,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="img-wrap">
                                     <img src="images/product-img-2.jpg">
                                     <img class="hover-img" src="">
+                                    <div class="middle">
+                                        <span class="text">NEW</span>
+                                    </div>
                                 </div>
                                 <figcaption class="info-wrap">
                                     <a href="#" class="tag">Accessories</a><br>

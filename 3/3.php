@@ -27,16 +27,8 @@
 
   <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="css/swiper.min.css">
-
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  
-  <!-- Swiper JS -->
-  <script src="js/swiper.min.js"></script>
-  <script src="js/13.js"></script>
-  <!-- CSS -->
   <link href="css/3.css" rel="stylesheet" type="text/css" />
 
 </head>
