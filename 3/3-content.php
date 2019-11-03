@@ -21,7 +21,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="col-xs-12 col-sm-6 col-md-4 pro">
                             <figure class="card card-product">
                                 <div class="img-wrap">
-                                    <img src="images/giay1.jpg">
+                                    <img src="images/product-img-1.jpg">
                                     <img class="hover-img" src="images/giay2.jpg">
                                 </div>
                                 <figcaption class="info-wrap">
@@ -34,8 +34,8 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="col-xs-12 col-sm-6 col-md-4 pro">
                             <figure class="card card-product">
                                 <div class="img-wrap">
-                                    <img src="images/giay1.jpg">
-                                    <img class="hover-img" src="images/giay2.jpg">
+                                    <img src="images/product-img-11.jpg">
+                                    <img class="hover-img" src="">
                                 </div>
                                 <figcaption class="info-wrap">
                                     <a href="#" class="tag">Accessories</a><br>
@@ -47,8 +47,8 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="col-xs-12 col-sm-6 col-md-4 pro">
                             <figure class="card card-product">
                                 <div class="img-wrap">
-                                    <img src="images/giay1.jpg">
-                                    <img class="hover-img" src="images/giay2.jpg">
+                                    <img src="images/product-img-10.jpg">
+                                    <img class="hover-img" src="">
                                 </div>
                                 <figcaption class="info-wrap">
                                     <a href="#" class="tag">Accessories</a><br>
@@ -60,8 +60,8 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="col-xs-12 col-sm-6 col-md-4 pro">
                             <figure class="card card-product">
                                 <div class="img-wrap">
-                                    <img src="images/giay1.jpg">
-                                    <img class="hover-img" src="images/giay2.jpg">
+                                    <img src="images/product-img-2.jpg">
+                                    <img class="hover-img" src="">
                                 </div>
                                 <figcaption class="info-wrap">
                                     <a href="#" class="tag">Accessories</a><br>
@@ -73,8 +73,8 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="col-xs-12 col-sm-6 col-md-4 pro">
                             <figure class="card card-product">
                                 <div class="img-wrap">
-                                    <img src="images/giay1.jpg">
-                                    <img class="hover-img" src="images/giay2.jpg">
+                                    <img src="images/product-img-6.jpg">
+                                    <img class="hover-img" src="">
                                 </div>
                                 <figcaption class="info-wrap">
                                     <a href="#" class="tag">Accessories</a><br>
@@ -86,8 +86,8 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="col-xs-12 col-sm-6 col-md-4 pro">
                             <figure class="card card-product">
                                 <div class="img-wrap">
-                                    <img src="images/giay1.jpg">
-                                    <img class="hover-img" src="images/giay2.jpg">
+                                    <img src="images/product-img-18.jpg">
+                                    <img class="hover-img" src="">
                                 </div>
                                 <figcaption class="info-wrap">
                                     <a href="#" class="tag">Accessories</a><br>
