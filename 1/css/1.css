@@ -67,6 +67,103 @@
   display: inline-block;
   vertical-align: middle;
 }
+.type-1 .navbar-default {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.type-1 .navbar-default .navbar-left .navbar-nav li .dropdown-toggle {
+  font-weight: bold;
+  padding-right: 30px;
+  color: #ffffff;
+}
+.type-1 .navbar-default .navbar-left .navbar-nav .navbar-brand {
+  color: #000;
+}
+.type-1 .navbar-default .dropdown-header {
+  font-size: 20px;
+}
+.type-1 .navbar-default:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 100vw;
+  background-color: #000;
+}
+.type-1 .dropdown-menu li a {
+  color: #000 !important;
+}
+.type-1 .navbar-default .navbar-nav>.dropdown>a .caret {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+.type-1 .navbar-default .menu-large {
+  position: static !important;
+}
+.type-1 .navbar-default .megamenu {
+  padding: 20px 0px;
+  width: 100%;
+}
+.type-1 .navbar-default .megamenu>li>ul {
+  padding: 0;
+  margin: 0;
+}
+.type-1 .navbar-default .megamenu>li>ul>li {
+  list-style: none;
+}
+.type-1 .navbar-default .megamenu>li>ul>li>a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #333333;
+  white-space: normal;
+}
+.type-1 .navbar-default .megamenu>li ul>li>a:hover,
+.type-1 .navbar-default .megamenu>li ul>li>a:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: #f5f5f5;
+}
+.type-1 .navbar-default .megamenu.disabled>a,
+.type-1 .navbar-default .megamenu.disabled>a:hover,
+.type-1 .navbar-default .megamenu.disabled>a:focus {
+  color: #000000;
+}
+.type-1 .navbar-default .megamenu.disabled>a:hover,
+.type-1 .navbar-default .megamenu.disabled>a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  cursor: not-allowed;
+}
+.type-1 .navbar-default .megamenu.dropdown-header {
+  color: #428bca;
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  .type-1 .megamenu {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .type-1 .megamenu>li {
+    margin-bottom: 30px;
+  }
+  .type-1 .megamenu>li:last-child {
+    margin-bottom: 0;
+  }
+  .type-1 .megamenu.dropdown-header {
+    padding: 3px 15px !important;
+  }
+  .type-1 .navbar-nav .open .dropdown-menu .dropdown-header {
+    color: #fff;
+  }
+}
 @media only screen and (max-width: 1000px) {
   .top .contact,
   .tandc {
