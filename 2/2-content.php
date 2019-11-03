@@ -3,15 +3,17 @@
         <div class="products">
             <div class="row">
                 <div class="col-sm-12 col-md-6 img1">
-                    <img src="images/h5-slide-img-1.jpg" class="img-responsive" alt="pic1">
-                    <div class="text-center">
-                        <button type="button" class="btn btn-primary">SHOP MEN</button>
+                    <img src="images/h5-slide-img-1.jpg" alt="pic1" class="image img-responsive" style="width:100%">
+                    <h1 class="large">SHOP MEN</h1>
+                    <div class="middle">
+                        <div class="text">SHOP MEN</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 img2">
-                    <img src="images/h5-slide-img-2.jpg" class="img-responsive" alt="pic2">
-                    <div class="text-center">
-                        <button type="button" class="btn btn-primary">SHOP WOMEN</button>
+                    <img src="images/h5-slide-img-2.jpg" alt="pic2" class="image img-responsive" style="width:100%">
+                    <h1 class="large">SHOP WOMEN</h1>
+                    <div class="middle">
+                        <div class="text">SHOP WOMEN</div>
                     </div>
                 </div>
             </div>
