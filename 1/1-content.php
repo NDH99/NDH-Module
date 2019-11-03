@@ -44,7 +44,7 @@
                     <span class="icon-bar"></span>
                 </button>
             </div>
-            <div class="navbar-collapse collapse navbar-left">
+            <div class="navbar-collapse collapse navbar-center">
                 <ul class="nav navbar-nav">
                     <li class="dropdown menu-large dmenu">
                         <a href=" #" class="dropdown-toggle" data-toggle="dropdown">WHAT'S NEW</a>
@@ -129,7 +129,7 @@
 
                     </li>
                     <li class="dropdown dmenu">
-                        <a href=" #" class="dropdown-toggle" data-toggle="dropdown">LOOKBOOK</a>
+                        <a href=" #" class="dropdown-toggle" data-toggle="dropdown">BLOG</a>
                         <ul class="dropdown-menu sm-menu">
                             <li><a href="#">Action</a></li>
                             <li><a href="#">Category – Top slider 1</a></li>
@@ -141,7 +141,7 @@
                         </ul>
                     </li>
                     <li class="dropdown dmenu">
-                        <a href=" #" class="dropdown-toggle" data-toggle="dropdown">ELEMENTS</a>
+                        <a href=" #" class="dropdown-toggle" data-toggle="dropdown">LOOKBOOK</a>
                         <ul class="dropdown-menu sm-menu">
                             <li><a href="#">Action</a></li>
                             <li><a href="#">Category – Top slider 1</a></li>
@@ -153,12 +153,11 @@
                         </ul>
                     </li>
                     <li class="dropdown menu-large dmenu">
-                        <a href=" #" class="dropdown-toggle" data-toggle="dropdown">BLOG</a>
+                        <a href=" #" class="dropdown-toggle" data-toggle="dropdown">ELEMENTS</a>
                         <ul class="dropdown-menu megamenu row sm-menu">
                             <li class="col-sm-3">
                                 <ul>
-                                    <li class="dropdown-header">Products Categoreis</li>
-                                    <li class="divider"></li>
+                                    <li class="dropdown-header">Featured</li>
                                     <li><a href="#">Available glyphs</a></li>
                                     <li><a href="#">How to use</a></li>
                                     <li><a href="#">Examples</a></li>
@@ -166,8 +165,7 @@
                             </li>
                             <li class="col-sm-3">
                                 <ul>
-                                    <li class="dropdown-header">Products Categoreis</li>
-                                    <li class="divider"></li>
+                                    <li class="dropdown-header">Infographic</li>
                                     <li><a href="#">Available glyphs</a></li>
                                     <li><a href="#">How to use</a></li>
                                     <li><a href="#">Examples</a></li>
@@ -175,8 +173,7 @@
                             </li>
                             <li class="col-sm-3">
                                 <ul>
-                                    <li class="dropdown-header">Products Categoreis</li>
-                                    <li class="divider"></li>
+                                    <li class="dropdown-header">Classic</li>
                                     <li><a href="#">Available glyphs</a></li>
                                     <li><a href="#">How to use</a></li>
                                     <li><a href="#">Examples</a></li>
@@ -184,8 +181,7 @@
                             </li>
                             <li class="col-sm-3">
                                 <ul>
-                                    <li class="dropdown-header">Products Categoreis</li>
-                                    <li class="divider"></li>
+                                    <li class="dropdown-header">Typography</li>
                                     <li><a href="#">Available glyphs</a></li>
                                     <li><a href="#">How to use</a></li>
                                     <li><a href="#">Examples</a></li>

@@ -73,27 +73,36 @@
         }
         
     }
-
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+      }
+      
+      .navbar .navbar-collapse {
+        text-align: center;
+      }
 
     .navbar-default {
-        position: absolute;
-        left: 50%;
-        transform: translatex(-50%);
-        .navbar-left{
-            .navbar-nav {
+
+        .navbar-center{
+            .navbar-nav {        
                 li .dropdown-toggle {
+                    text-align: center;
                     font-weight: bold;
                     padding-right: 30px;
                     color: #ffffff;
                 }
-
+                li .dropdown-toggle:hover{
+                    color: #e08686;
+                }
                 .navbar-brand {
                     color: #000;
                 }
             }
         }
         .dropdown-header{
-            font-size: 20px;
+            font-size: 16px;
         }
     }
 
@@ -111,11 +120,6 @@
         li a{
             color: #000!important;
         }
-    }
-
-    .navbar-default .navbar-nav>.dropdown>a .caret {
-        border-top-color: #fff;
-        border-bottom-color: #fff;
     }
 
     .navbar-default {
