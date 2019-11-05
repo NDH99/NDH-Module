@@ -1,0 +1,30 @@
+.type-8 {
+  margin-top: 20px;
+}
+.type-8 .pro .women {
+  padding: 0 10px;
+}
+.type-8 .pro .women p {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
+.type-8 .pro .men {
+  padding: 0 10px;
+}
+.type-8 .pro .men p {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
+.type-8 .pro .kid {
+  padding: 0 10px;
+}
+.type-8 .pro .kid p {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
