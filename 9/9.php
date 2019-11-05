@@ -21,10 +21,28 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="<?php echo $url_path ?>/css/bootstrap-3.3.7.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/swiper.min.css">
         <link href="<?php echo $url_path ?>/css/9.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
     </head>
     <body>
         <?php include '9-content.php'; ?>
+
+        <!-- Initialize Swiper -->
+        <script>
+        var swiper = new Swiper('.swiper-container', {
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            });
+        </script>
     </body>
 </html>

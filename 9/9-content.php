@@ -31,7 +31,7 @@
         <!-- Add Arrows -->
         <br>
         <br>
-        <div class="swiper-button-next swiper-button-black" style="top: 147px; right:0"></div>
-        <div class="swiper-button-prev swiper-button-black" style="top: 147px; left:0;"></div>
+        <div class="swiper-button-next swiper-button-white" style="top: 147px; right:0"></div>
+        <div class="swiper-button-prev swiper-button-white" style="top: 147px; left:0;"></div>
     </div>
 </div>
