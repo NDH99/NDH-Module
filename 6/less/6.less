@@ -1,17 +1,90 @@
 .type-6{
   
-    .modal-header .close {
-      margin: 0;
-      position: absolute;
-      top: -14px;
-      right: -14px;
-      width: 30px;
-      height: 30px;
-      border-radius: 30px;
-      background-color: #000;
-      color: #fff;
-      font-size: 20px;
-      opacity: 1;
+    .modal {
+      vertical-align: middle;
+      text-align: center;
+      padding: 0!important;
+      .modal-header{
+        padding: 0 !important;
+        border: none;
+        .close {
+          margin: 0;
+          position: absolute;
+          top: -14px;
+          right: -14px;
+          width: 30px;
+          height: 30px;
+          border-radius: 30px;
+          background-color: #000;
+          color: #fff;
+          font-size: 20px;
+          opacity: 1;
+        }
+        .row{
+          position: relative;
+          .left{
+            position: absolute;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+          }
+          .right{  
+            margin:0 50% ;
+            position: absolute;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            padding: 10px 70px 10px 65px;
+            text-align: center;
+            h2{
+              text-transform: uppercase;
+              font-weight: 600;
+              font-size: 40px;
+            }
+            .sub{
+              margin-bottom: 20px;
+              h5{
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  line-height: 2em;
+              }
+            }
+            .email{
+                margin-bottom: 20px;
+                input{
+                    text-align: center;
+                    background: none;
+                    outline: none;
+                    border: none;
+                    color: #333333;
+                    border-bottom: 1px solid #333333; 
+                }
+                
+            }
+            .send{
+              margin-bottom: 20px;
+              button{
+                  background: #000;
+                  color: #fff;
+                  padding: 10px 50px;
+                  text-transform: uppercase;
+              }
+            }
+          }
+        }
+        
+      }     
     }
-
+    .modal:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+      margin-right: -4px;
+    }
+    
+    .modal-dialog {
+      display: inline-block;
+      vertical-align: middle;
+    }
 }
