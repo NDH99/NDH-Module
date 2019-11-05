@@ -2,7 +2,7 @@
     <div class="container input">
 
         <div class="sub">
-            <h6>SUBSCRIBE TO NEWSLETTER</h6>
+            <h5>SUBSCRIBE TO NEWSLETTER</h5>
         </div>
         <div class="email">
             <input type="email" name="your-email" value="" size="40" placeholder="E-mail address">
