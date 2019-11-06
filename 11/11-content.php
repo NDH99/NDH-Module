@@ -5,7 +5,21 @@
                 <div class="swiper-slide">
                     <figure class="card card-product">
                         <div class="img-wrap">
-                            <img src="images/product-img-1.jpg">
+                            <img src="images/h1-blog-list-img-1-480x480.jpg">
+                        </div>
+                    </figure>
+                </div>
+				<div class="swiper-slide">
+                    <figure class="card card-product">
+                        <div class="img-wrap">
+                            <img src="images/h1-blog-list-img-2-480x480.jpg">
+                        </div>
+                    </figure>
+                </div>
+				<div class="swiper-slide">
+                    <figure class="card card-product">
+                        <div class="img-wrap">
+                            <img src="images/h1-blog-list-img-3-480x480.jpg">
                         </div>
                     </figure>
                 </div>
