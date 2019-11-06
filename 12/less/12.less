@@ -3,12 +3,42 @@
 @background-gray: rgb(177, 168, 168);
 .type-12 {
     margin-top: 20px;
+    .comment-title{
+        h6{
+            font-weight: bold;
+            font-size: 15px;         
+        }
+        margin-bottom: 30px;
+    }
     .comment{
+        ul {
+            list-style: none;
+        }
         .image{
             img{
                 border-radius: 50%;
+                float: left;
+                margin-right: 25px;
             }
         }
+        .text{
+            .name{
+                display: inline-block;
+            }
+            .date{
+                display: inline-block;
+            }
+            .action{
+                float: right;
+                a{
+                    text-decoration: none;
+                }
+            }
+            .text-holder{
+                font-weight: bold;
+            }
+        }
+
     }
 
 }

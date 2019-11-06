@@ -10,7 +10,7 @@
                         <img src="images/User-2-100x100.jpg" alt="user1" class="img-responsive">
                     </div>
                     <div class="text">
-                        <div class="name">Ed George</div>
+                        <div class="name">Ed George -</div>
                         <div class="date">November 15, 2018</div>
                         <div class="action">
                             <a href="#">reply</a>
