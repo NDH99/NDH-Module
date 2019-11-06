@@ -1,0 +1,19 @@
+.type-11 {
+  margin-top: 20px;
+}
+.type-11 .swiper-wrapper .slide-pro .text a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+}
+.type-11 .swiper-wrapper .slide-pro .text p {
+  font-size: 13px;
+  line-height: 22px;
+}
+.type-11 .swiper-wrapper .slide-pro .text .link {
+  border-bottom: 1px solid #e08686;
+}
+.type-11 .swiper-wrapper .slide-pro .text .link:hover {
+  border-bottom: 1px solid #000;
+  transition: all 1s;
+}
