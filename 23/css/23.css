@@ -1,24 +1,24 @@
-.type-35 .item-left .btn-phone {
+.type-23 .item-left .btn-phone {
   background: #000000;
   color: #ffffff;
   padding: 10px 70px;
   margin: 20px 0;
 }
-.type-35 .item-left .btn-phone:hover {
+.type-23 .item-left .btn-phone:hover {
   background: #2c2c2c;
 }
-.type-35 .item-right {
+.type-23 .item-right {
   margin-top: 20px;
 }
-.type-35 .item-right #accordion .panel-default {
+.type-23 .item-right #accordion .panel-default {
   margin-bottom: 20px;
 }
-.type-35 .item-right #accordion .panel-heading {
+.type-23 .item-right #accordion .panel-heading {
   border-left: 3px solid #e08686;
   background: #f4f4f4;
   padding: 10px;
 }
-.type-35 .item-right #accordion .panel-title>a {
+.type-23 .item-right #accordion .panel-title>a {
   display: block;
   padding: 0.4em 0.6em;
   outline: none;
@@ -26,17 +26,17 @@
   text-decoration: none;
   color: #000000;
 }
-.type-35 .item-right #accordion .panel-body {
+.type-23 .item-right #accordion .panel-body {
   color: gray;
 }
-.type-35 .item-right #accordion .panel-title>a.accordion-toggle::before,
-.type-35 .item-right #accordion a[data-toggle="collapse"]::before {
+.type-23 .item-right #accordion .panel-title>a.accordion-toggle::before,
+.type-23 .item-right #accordion a[data-toggle="collapse"]::before {
   content: "\e113";
   float: right;
   font-family: 'Glyphicons Halflings';
   margin-right: 1em;
 }
-.type-35 .item-right #accordion .panel-title>a.accordion-toggle.collapsed::before,
-.type-35 .item-right #accordion a.collapsed[data-toggle="collapse"]::before {
+.type-23 .item-right #accordion .panel-title>a.accordion-toggle.collapsed::before,
+.type-23 .item-right #accordion a.collapsed[data-toggle="collapse"]::before {
   content: "\e114";
 }

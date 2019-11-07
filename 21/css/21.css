@@ -1,38 +1,38 @@
-.type-33 {
+.type-21 {
   margin-top: 20px;
 }
-.type-33 .list {
+.type-21 .list {
   padding-left: 0;
   margin-top: 15px;
   margin-bottom: 40px;
 }
-.type-33 .list li {
+.type-21 .list li {
   list-style: none;
 }
-.type-33 .list li a {
+.type-21 .list li a {
   text-decoration: none;
   color: gray;
 }
-.type-33 .list li a:hover {
+.type-21 .list li a:hover {
   color: #e08686;
 }
-.type-33 .product p {
+.type-21 .product p {
   position: absolute;
   top: 144px;
   margin-left: 34%;
   color: #ffffff;
   font-size: 40px;
 }
-.type-33 .product .depsiton {
+.type-21 .product .depsiton {
   margin-top: 20px;
   text-align: center;
 }
-.type-33 .product .depsiton .btn-get {
+.type-21 .product .depsiton .btn-get {
   margin-top: 30px;
   background: #000000;
   color: #ffffff;
   padding: 10px 20px;
 }
-.type-33 .product .depsiton .btn-get:hover {
+.type-21 .product .depsiton .btn-get:hover {
   background: #1d1d1d;
 }
