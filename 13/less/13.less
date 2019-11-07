@@ -1,0 +1,144 @@
+.type-8{
+    margin-top: 20px;
+    .video{
+        position: relative;
+        .btn{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            font-size: 16px;
+            padding: 12px 24px;
+            border: none;
+            z-index: 1;
+        }
+        img{
+            width: 100%;
+        }
+    }
+    iframe {
+        height: 100vh;
+        width: 100%;
+    }
+    .modal-body {
+        padding: 0;
+        margin: 0;
+    }
+    .close {
+    color: white;
+        position: absolute;
+        /* background: blue !important; */
+        border: 0;
+        top: 0;
+        z-index: 99999;
+        right: 3%;
+        float: none;
+        opacity: 1;
+        font-size: 40px;
+        font-weight: 400;
+    }
+    .modal-footer {
+        text-align: initial;
+    }
+    .modal-transparent {
+        background: transparent;
+        .modal-content {
+            background: transparent;
+        }
+    }
+    .modal-backdrop {
+        &.modal-backdrop-transparent {
+            background: #ffffff;
+            &.in {
+                opacity: .9;
+                filter: alpha(opacity=90);
+            }
+        }
+        &.modal-backdrop-fullscreen {
+            background: #ffffff;
+            &.in {
+                opacity: .97;
+                filter: alpha(opacity=97);
+            }
+        }
+    }
+    .modal-fullscreen {
+        background: transparent;
+        .modal-content {
+            background: transparent;
+            border: 0;
+            //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+            box-shadow: none;
+        }
+        .modal-dialog {
+            margin: 0;
+            margin-right: auto;
+            margin-left: auto;
+            width: 100%;
+        }
+    }
+    @media(min-width: 768px) {
+        .modal-fullscreen .modal-dialog {
+            width: 750px;
+        }
+    }
+    @media(min-width: 992px) {
+        .modal-fullscreen .modal-dialog {
+            width: 970px;
+        }
+    }
+    @media(min-width: 1200px) {
+        .modal-fullscreen .modal-dialog {
+            width: 100%;
+        }
+    }
+
+    .product{
+        margin: 20px auto;
+    }
+    .depsition{
+        text-align: center;
+    }
+    .text{
+        background: gray;
+        color: #ffffff;
+        h3{
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        img{
+            opacity: 0.3;
+            &:hover{
+                opacity: 1;
+                transition: opacity 0.5s ease-in-out;
+            }
+        }
+      }
+}

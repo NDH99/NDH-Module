@@ -1,0 +1,137 @@
+.type-8 {
+  margin-top: 20px;
+}
+.type-8 .video {
+  position: relative;
+}
+.type-8 .video .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  z-index: 1;
+}
+.type-8 .video img {
+  width: 100%;
+}
+.type-8 iframe {
+  height: 100vh;
+  width: 100%;
+}
+.type-8 .modal-body {
+  padding: 0;
+  margin: 0;
+}
+.type-8 .close {
+  color: white;
+  position: absolute;
+  border: 0;
+  top: 0;
+  z-index: 99999;
+  right: 3%;
+  float: none;
+  opacity: 1;
+  font-size: 40px;
+  font-weight: 400;
+}
+.type-8 .modal-footer {
+  text-align: initial;
+}
+.type-8 .modal-transparent {
+  background: transparent;
+}
+.type-8 .modal-transparent .modal-content {
+  background: transparent;
+}
+.type-8 .modal-backdrop.modal-backdrop-transparent {
+  background: #ffffff;
+}
+.type-8 .modal-backdrop.modal-backdrop-transparent.in {
+  opacity: .9;
+  filter: alpha(opacity=90);
+}
+.type-8 .modal-backdrop.modal-backdrop-fullscreen {
+  background: #ffffff;
+}
+.type-8 .modal-backdrop.modal-backdrop-fullscreen.in {
+  opacity: .97;
+  filter: alpha(opacity=97);
+}
+.type-8 .modal-fullscreen {
+  background: transparent;
+}
+.type-8 .modal-fullscreen .modal-content {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+.type-8 .modal-fullscreen .modal-dialog {
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .type-8 .modal-fullscreen .modal-dialog {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .type-8 .modal-fullscreen .modal-dialog {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .type-8 .modal-fullscreen .modal-dialog {
+    width: 100%;
+  }
+}
+.type-8 .product {
+  margin: 20px auto;
+}
+.type-8 .depsition {
+  text-align: center;
+}
+.type-8 .text {
+  background: gray;
+  color: #ffffff;
+}
+.type-8 .text h3 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.type-8 .swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.type-8 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.type-8 .swiper-slide img {
+  opacity: 0.3;
+}
+.type-8 .swiper-slide img:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
