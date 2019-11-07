@@ -1,29 +1,29 @@
-.type-31 .title {
+.type-19 .title {
   border-bottom: 1px solid #ebebeb;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
-.type-31 .title span {
+.type-19 .title span {
   color: #e08686;
   font-size: 30px;
 }
-.type-31 .share .twitter,
-.type-31 .share .fb,
-.type-31 .share .instagram {
+.type-19 .share .twitter,
+.type-19 .share .fb,
+.type-19 .share .instagram {
   margin-top: 15px;
 }
-.type-31 .share span {
+.type-19 .share span {
   color: #e08686;
   font-size: 20px;
   margin-right: 10px;
 }
-.type-31 .share a {
+.type-19 .share a {
   text-decoration: none;
   color: gray;
 }
-.type-31 .share a:hover {
+.type-19 .share a:hover {
   color: #e08686;
 }
-.type-31 img {
+.type-19 img {
   margin-top: 15px;
 }

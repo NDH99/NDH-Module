@@ -1,26 +1,26 @@
-.type-32 h2 {
+.type-20 h2 {
   font-size: 20px;
 }
-.type-32 .list a {
+.type-20 .list a {
   text-decoration: none;
   display: block;
   color: gray;
 }
-.type-32 .list a:hover {
+.type-20 .list a:hover {
   color: #e08686;
 }
-.type-32 .contact .fr-name {
+.type-20 .contact .fr-name {
   padding: 25px 10px;
 }
-.type-32 .contact .fr-email {
+.type-20 .contact .fr-email {
   padding: 25px 10px;
 }
-.type-32 .contact .btnContact {
+.type-20 .contact .btnContact {
   background: #000000;
   color: #ffffff;
   padding: 20px 70px;
   border: none;
 }
-.type-32 .contact .btnContact:hover {
+.type-20 .contact .btnContact:hover {
   background: #1b1b1b;
 }
