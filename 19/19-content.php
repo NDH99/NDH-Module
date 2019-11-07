@@ -1,4 +1,4 @@
-<div class="type-31">
+<div class="type-19">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
