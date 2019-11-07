@@ -1,52 +1,49 @@
 <div class="type-29">
     <div class="container">
-        <div class="row">
-            <div class="topbanner">
-                <div class="col-md-1 socola"></div>
-                <div class="col-md-9 socola2">
-                    <h2 class="adudu-gachchan">On sale Product</h2>
+        <div class="topbanner">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2 class="product-title">On sale Product</h2>
                 </div>
-                <div class="col-md-2 socola1"></div>
+                <div class="col-md-9 note"><h2> </h2></div>
             </div>
-            <div class="swiper-container">
+        </div>
+        <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <figure class="card card-product">
                         <div class="img-wrap">
-                            <img src="images/product-img-1.jpg">
-                            <div class="middle">
-                                <span class="text">SALE</span>
+                            <img src="./images/product-img-1-650x1024.jpg" class="img-responsive">
+                            <div class="hinhvuong link-hover">
+                                <a href="#"><i class="fa fa-tv"></i></a>
+                                <a href="#"><i class="fa fa-thumbs-up"></i></a>
+                                <a href="#"><i class="fa fa-file"></i></a>
                             </div>
                         </div>
-                        <figcaption class="info-wrap">
-                            <a href="#" class="tag">Accessories</a><br>
-                            <a href="#">Chic Scarf</a><br>
-                            <span class="price">$350.00</span>
-                        </figcaption>
                     </figure>
                 </div>
                 <div class="swiper-slide">
                     <figure class="card card-product">
                         <div class="img-wrap">
-                            <img src="images/product-img-11.jpg">
+                            <img src="./images/product-img-15-650x1024.jpg" class="img-responsive">
+                            <div class="hinhvuong link-hover">
+                                <a href="#"><i class="fa fa-tv"></i></a>
+                                <a href="#"><i class="fa fa-thumbs-up"></i></a>
+                                <a href="#"><i class="fa fa-file"></i></a>
+                            </div>
                         </div>
-                        <figcaption class="info-wrap">
-                            <a href="#" class="tag">Accessories</a><br>
-                            <a href="#">Chic Scarf</a><br>
-                            <span class="price">$350.00</span>
-                        </figcaption>
                     </figure>
                 </div>
                 <div class="swiper-slide">
                     <figure class="card card-product">
                         <div class="img-wrap">
-                            <img src="images/product-img-9.jpg">
+                            <img src="./images/product-img-44-650x1024.jpg" class="img-responsive">
+                            <div class="hinhvuong link-hover">
+                                <a href="#"><i class="fa fa-tv"></i></a>
+                                <a href="#"><i class="fa fa-thumbs-up"></i></a>
+                                <a href="#"><i class="fa fa-file"></i></a>
+                            </div>
                         </div>
-                        <figcaption class="info-wrap">
-                            <a href="#" class="tag">Accessories</a><br>
-                            <a href="#">Chic Scarf</a><br>
-                            <span class="price">$350.00</span>
-                        </figcaption>
                     </figure>
                 </div>
             </div>
@@ -57,7 +54,6 @@
             <br>
             <div class="swiper-button-next swiper-button-black"></div>
             <div class="swiper-button-prev swiper-button-black"></div>
-        </div>
         </div>
     </div>
 </div>
