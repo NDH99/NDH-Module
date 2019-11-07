@@ -1,0 +1,18 @@
+.type-28 {
+  background-image: url("../images/h1-parallax-1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.type-28 .text {
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.type-28 h3 {
+  font-weight: bold;
+}
+.type-28 h1 {
+  font-weight: bold;
+  font-size: 62px;
+}
