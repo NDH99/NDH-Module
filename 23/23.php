@@ -12,22 +12,22 @@
         require_once($dir_block . '/libs/lessc.inc.php');
     }
     $less = new lessc;
-    $less->compileFile('less/35.less', 'css/35.css');
+    $less->compileFile('less/23.less', 'css/23.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>35</title>
+        <title>23</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="<?php echo $url_path ?>/css/bootstrap-3.3.7.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
-        <link href="<?php echo $url_path ?>/css/35.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/23.css" rel="stylesheet" type="text/css"/>
         
         <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap-3.3.7.min.js"></script>
     </head>
     <body>
-        <?php include '35-content.php'; ?>
+        <?php include '23-content.php'; ?>
     </body>
 </html>
