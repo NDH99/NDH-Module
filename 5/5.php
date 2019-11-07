@@ -6,7 +6,8 @@
     preg_match_all($pattern_uri, __DIR__, $matches);
     $url_path = $url_host . $matches[1][0];
     $url_path = str_replace('\\', '/', $url_path);
-
+    var_dump($url_path);
+    die();
     if (!class_exists('lessc')) {
         $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);
         require_once($dir_block . '/libs/lessc.inc.php');

@@ -11,10 +11,12 @@
 .type-12 .comment ul {
   list-style: none;
 }
-.type-12 .comment .image img {
+.type-12 .comment img {
   border-radius: 50%;
-  float: left;
   margin-right: 25px;
+}
+.type-12 .comment .text {
+  overflow: auto;
 }
 .type-12 .comment .text .name {
   display: inline-block;
@@ -26,6 +28,9 @@
   float: right;
 }
 .type-12 .comment .text .action a {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
   text-decoration: none;
 }
 .type-12 .comment .text .text-holder {
