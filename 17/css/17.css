@@ -1,0 +1,119 @@
+.type-17 {
+  font-family: "Lato", sans-serif;
+  line-height: 1.6;
+  color: #777;
+}
+.type-17 .tabs h3 {
+  color: #555;
+  font-size: 1.35em;
+  font-weight: 700;
+}
+.type-17 .nav {
+  display: flex;
+  justify-content: center;
+  border-bottom: none;
+}
+.type-17 .nav li {
+  margin-right: 4px;
+  margin-left: 4px;
+}
+.type-17 .nav li a {
+  font-family: "Lato", sans-serif;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: #777 !important;
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  font-weight: 700;
+  font-size: .9em;
+  border: none;
+}
+.type-17 .nav li a::before {
+  content: " ";
+  position: absolute;
+  transition: all .3s ease;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  background-color: #E08686;
+  height: 3px;
+}
+.type-17 .nav li:hover a {
+  background: unset;
+  border: none;
+  cursor: grab;
+}
+.type-17 .nav li:hover a:before {
+  content: " ";
+  width: 100%;
+}
+.type-17 .nav li:nth-last-of-type(1) {
+  margin-right: 0;
+}
+.type-17 .nav li:nth-of-type(1) {
+  margin-left: 0;
+}
+.type-17 .nav .active a {
+  color: #000 !important;
+  border: unset;
+}
+.type-17 .nav .active a:before {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #E08686;
+  transition: all 0.3s;
+  opacity: 1;
+  height: 3px;
+}
+.type-17 .nav .active a:focus {
+  border: unset;
+}
+.type-17 .tab-content {
+  padding: 30px 0px;
+}
+.type-17 .fade {
+  font-size: 1.2em;
+  text-align: center;
+  color: #555;
+}
+.type-17 .fade .weight {
+  font-weight: bold;
+}
+.type-17 .title-size {
+  font-weight: 550;
+}
+.type-17 .comments {
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+  width: 100%;
+  margin-top: 10px;
+}
+.type-17 .comments .avatar {
+  margin-right: 20px;
+}
+.type-17 .comments .avatar img {
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+}
+.type-17 .comments .content {
+  display: inline-block;
+}
+.type-17 .comments .content p {
+  left: 0;
+}
+.type-17 .star-rating {
+  position: absolute;
+  display: inline-block;
+  color: #D26E4B;
+  font-size: 1.25em;
+}
+.type-17 .star-rating .fa-star {
+  color: #D26E4B;
+}
