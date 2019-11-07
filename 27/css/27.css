@@ -1,34 +1,46 @@
-.type-10 .adudu-header {
+.type-27 .title-header {
   text-align: center;
-  font-weight: 1000;
+  font-weight: bold;
 }
-.type-10 .adudu1 {
-  color: tomato;
+.type-27 .title {
+  font-weight: bold;
+  color: #e08686;
 }
-.type-10 .adudu-img {
+.type-27 .model {
+  margin-bottom: 15px;
+}
+.type-27 .model .pic1 {
   width: 100%;
   height: 720px;
 }
-.type-10 .adudu-img1 {
+.type-27 .model .pic2 {
   width: 100%;
   height: 350px;
 }
-.type-10 .adudu-img2 {
+.type-27 .model .pic3 {
   width: 100%;
   height: 350px;
+  margin-top: 20px;
 }
-.type-10 .adudu-cachlorem {
+.type-27 .lorem {
+  margin-top: 20px;
   text-align: center;
-  margin: 30px;
+}
+.type-27 .inter-center {
+  text-align: center;
+}
+.type-27 .follow {
+  text-align: center;
   padding-top: 20px;
+  margin-bottom: 20px;
 }
-.type-10 .adudu-center {
-  text-align: center;
+.type-27 .follow a {
+  text-decoration: none;
+  color: #000;
 }
-.type-10 .adudu-follow {
-  text-align: center;
-  padding-top: 20px;
+.type-27 .follow a i {
+  padding: 0 15px;
 }
-.type-10 .adudu-chua3anh {
-  margin-bottom: 70px;
+.type-27 .follow a:hover {
+  color: #e08686;
 }
