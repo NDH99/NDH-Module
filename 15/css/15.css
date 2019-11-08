@@ -1,13 +1,17 @@
-.type-2 {
+.type-15 {
   margin-top: 30px;
 }
-.type-2 .img1 {
+.type-15 .img1 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
   position: relative;
 }
-.type-2 .img2 {
+.type-15 .img2 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
   position: relative;
 }
-.type-2 .middle {
+.type-15 .middle {
   z-index: 1;
   transition: .5s ease;
   position: absolute;
@@ -17,24 +21,62 @@
   -ms-transform: translate(-50%,-50%);
   text-align: center;
 }
-.type-2 .large {
-  font-size: 40px;
-  line-height: 2em;
+.type-15 .middle a {
+  text-decoration: none;
+}
+.type-15 .large {
+  font-size: 50px;
+  font-weight: bold;
   color: #fff;
 }
-.type-2 .text {
+.type-15 .text {
   background-color: #fff;
   color: #000;
   font-size: 16px;
   padding: 10px;
 }
+.type-15 .text:hover {
+  background-color: #000;
+  color: #fff;
+}
+.type-15 .shop .men,
+.type-15 .shop .women,
+.type-15 .shop .bandg {
+  position: relative;
+  padding: 114px 100px 0;
+}
+.type-15 .shop .men a,
+.type-15 .shop .women a,
+.type-15 .shop .bandg a {
+  color: #fff;
+  text-decoration: none;
+}
+.type-15 .shop .men a:hover,
+.type-15 .shop .women a:hover,
+.type-15 .shop .bandg a:hover {
+  color: #e08686;
+}
+.type-15 .shop .men .link,
+.type-15 .shop .women .link,
+.type-15 .shop .bandg .link {
+  font-weight: 500;
+  font-size: 90px;
+  z-index: 1;
+  transition: .5s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  text-align: center;
+}
 @media only screen and (min-width: 768px) {
-  .type-2 .products {
+  .type-15 .products {
     position: relative;
     height: 100%;
     width: 100%;
   }
-  .type-2 .products .img1 .img2 img {
+  .type-15 .products .img1 .img2 img {
     position: absolute;
     top: 100px;
     left: 0;

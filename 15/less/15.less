@@ -1,8 +1,12 @@
-.type-2{
+.type-15{
     margin-top: 30px;
     .img1{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
         position: relative;
     }.img2{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
         position: relative;
     }
            
@@ -15,11 +19,14 @@
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         text-align: center;
+        a{
+            text-decoration: none;
+        }
     }
 
     .large {
-        font-size: 40px;
-        line-height: 2em;
+        font-size: 50px;
+        font-weight: bold;
         color: #fff;
     }
       
@@ -28,6 +35,35 @@
         color: #000;
         font-size: 16px;
         padding: 10px;
+    }
+    .text:hover {
+        background-color: #000;
+        color: #fff;
+    }
+    .shop{
+        .men, .women, .bandg{
+            position: relative;
+            padding: 114px 100px 0;
+            a{
+                color: #fff;
+                text-decoration: none;
+            }
+            a:hover{
+                color: #e08686;
+            }
+            .link{
+                font-weight: 500;
+                font-size: 90px;
+                z-index: 1;
+                transition: .5s ease;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                text-align: center;
+            }
+        }
     }
 
     @media only screen and (min-width: 768px) {
