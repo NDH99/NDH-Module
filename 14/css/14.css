@@ -2,11 +2,24 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.type-14 .pro a {
+  text-decoration: none;
+  color: #000;
+  margin-top: -5px;
+}
+.type-14 .pro .title {
+  text-transform: uppercase;
+}
+.type-14 .pro .title:hover {
+  color: #e08686;
+}
+.type-14 .pro .group {
+  color: #e08686;
+}
+.type-14 .pro .group:hover {
+  color: #d48592;
+}
 .type-14 p {
   padding-top: 15px;
-  font-weight: bold;
-}
-.type-14 label {
-  color: #d48592;
   font-weight: bold;
 }
