@@ -11,28 +11,45 @@
 .type-12 .comment ul {
   list-style: none;
 }
-.type-12 .comment img {
-  border-radius: 50%;
-  margin-right: 25px;
+.type-12 .comment ul li {
+  margin-top: 20px;
 }
-.type-12 .comment .text {
-  overflow: auto;
+.type-12 .comment .comments {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: left;
+  flex-flow: row nowrap;
+  width: 100%;
+  margin-top: 10px;
 }
-.type-12 .comment .text .name {
+.type-12 .comment .comments .avatar {
+  margin-right: 20px;
+}
+.type-12 .comment .comments .avatar img {
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+}
+.type-12 .comment .comments .content {
   display: inline-block;
 }
-.type-12 .comment .text .date {
-  display: inline-block;
+.type-12 .comment .comments .content p {
+  left: 0;
 }
-.type-12 .comment .text .action {
-  float: right;
-}
-.type-12 .comment .text .action a {
-  color: #000;
+.type-12 .comment .comments .content .text-holder {
   font-weight: bold;
+}
+.type-12 .comment .action {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  color: #D26E4B;
+  font-size: 1.25em;
+}
+.type-12 .comment .action a {
   text-transform: uppercase;
   text-decoration: none;
-}
-.type-12 .comment .text .text-holder {
-  font-weight: bold;
+  color: #000;
 }

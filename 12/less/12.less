@@ -11,37 +11,51 @@
         margin-bottom: 30px;
     }
     .comment{
+        
         ul {
             list-style: none;
-        
+            li{
+                margin-top: 20px;
+            }
         }
 
-            img{
-                border-radius: 50%;
-                margin-right: 25px;}
-
-        .text{
-            overflow: auto;
-            .name{
-                display: inline-block;
-            }
-            .date{
-                display: inline-block;
-            }
-            .action{
-                float: right;
-                a{
-                    color: #000;
-                    font-weight: bold;
-                    text-transform: uppercase;
-                    text-decoration: none;
+        .comments{position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: left;
+            flex-flow: row nowrap;
+            width: 100%;
+            margin-top: 10px;
+            .avatar{
+                margin-right: 20px;
+                img{
+                    border-radius: 100%;
+                    width: 80px;
+                    height: 80px;   
                 }
             }
-            .text-holder{
-                font-weight: bold;
+            .content{
+                display: inline-block;
+                p{
+                    left: 0;
+                }
+                .text-holder{
+                    font-weight: bold;
+                }
             }
         }
-
+        .action {
+            position: absolute;
+            right: 0;
+            top: 0;
+            display: inline-block;
+            color: #D26E4B;
+            font-size:1.25em;
+            a{
+                text-transform: uppercase;
+                text-decoration: none;
+                color: #000;
+            }
+        }
     }
-
 }
