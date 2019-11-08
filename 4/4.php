@@ -16,18 +16,24 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>4</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="<?php echo $url_path ?>/css/bootstrap-3.3.7.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
-        <link href="<?php echo $url_path ?>/css/4.css" rel="stylesheet" type="text/css"/>
-        
-        <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/bootstrap-3.3.7.min.js"></script>
-    </head>
-    <body>
-        <?php include '4-content.php'; ?>
-    </body>
+
+<head>
+    <title>4</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="<?php echo $url_path ?>/css/bootstrap-3.3.7.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/4.css" rel="stylesheet" type="text/css" />
+
+    <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/bootstrap-3.3.7.min.js"></script>
+</head>
+
+<body>
+    <?php include '4-content.php'; ?>
+    <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/4.js"></script>
+</body>
+
 </html>

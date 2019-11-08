@@ -17,21 +17,26 @@ $less->compileFile('less/8.less', 'css/8.css');
 ?>
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>8</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/8.css" rel="stylesheet" type="text/css" />
+<head>
+    <title>8</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" ></script>
-        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/scripts.js"></script>
+    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/8.css" rel="stylesheet" type="text/css" />
 
-    </head>
-    <body >
-        <?php include '8-content.php'; ?>
-    </body>
+    <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <?php include '8-content.php'; ?>
+    <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/8.js"></script>
+</body>
+
 </html>
