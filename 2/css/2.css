@@ -17,6 +17,9 @@
   -ms-transform: translate(-50%,-50%);
   text-align: center;
 }
+.type-2 .middle a {
+  text-decoration: none;
+}
 .type-2 .large {
   font-size: 40px;
   line-height: 2em;
@@ -27,6 +30,10 @@
   color: #000;
   font-size: 16px;
   padding: 10px;
+}
+.type-2 .text:hover {
+  background-color: #000;
+  color: #fff;
 }
 @media only screen and (min-width: 768px) {
   .type-2 .products {
