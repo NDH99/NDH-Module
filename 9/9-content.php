@@ -6,7 +6,8 @@
                     <div class="img-wrap">
                         <img src="images/h1-slide-img-2.jpg">
                         <div class="middle">
-                            <span class="text">SALE</span>
+                            <div class="large">CASUAL WEAR ESSENTIALS<br>OF 2020</div><br>
+                            <a href="#"><span class="text">SHOP NOW</span></a>
                         </div>
                     </div>
                 </figure>
@@ -15,6 +16,11 @@
                 <figure class="card card-product">
                     <div class="img-wrap">
                         <img src="images/h1-slide-img-4.jpg">
+                        <div class="middle">
+                            <div class="large">CELEBRATE THIS SUMMER<br>30% OFF</div><br>
+                            <a href="#"><span class="text">SHOP NOW</span></a>
+                        </div>
+
                     </div>
                 </figure>
             </div>
@@ -22,6 +28,10 @@
                 <figure class="card card-product">
                     <div class="img-wrap">
                         <img src="images/slide-kids.jpg">
+                        <div class="middle">
+                            <div class="large">INIMITABLE APPAREL FOR<br>EVERYONE</div><br>
+                            <a href="#"><span class="text">SHOP NOW</span></a>
+                        </div>
                     </div>
                 </figure>
             </div>

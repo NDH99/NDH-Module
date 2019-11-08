@@ -26,3 +26,34 @@
   transition: all 1s;
   transform: translate(10px,-10px);
 }
+.type-9 .img-wrap {
+  position: relative;
+}
+.type-9 .img-wrap .middle {
+  z-index: 1;
+  transition: .5s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  text-align: center;
+}
+.type-9 .img-wrap .middle a {
+  text-decoration: none;
+}
+.type-9 .img-wrap .large {
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff;
+}
+.type-9 .img-wrap .text {
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  padding: 10px;
+}
+.type-9 .img-wrap .text:hover {
+  background-color: #000;
+  color: #fff;
+}
